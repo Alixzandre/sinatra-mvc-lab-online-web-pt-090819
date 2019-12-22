@@ -9,8 +9,8 @@
    
    def piglatinize(text)
      words = text.split("")
-     if text.size > 1
      w = words[0]
+     if text.size > 1
      words.push(w)
      end
      if w == ('a'||'e'||'i'||'o'||'u'||'A'||'E'||'I'||'O'||'U')
