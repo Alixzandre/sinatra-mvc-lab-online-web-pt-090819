@@ -18,7 +18,9 @@
      else
       words << "ay"
     end
+    if text.size > 1
       words.shift
+    end
       words.join
      
    end
