@@ -7,7 +7,7 @@
      end
    end"
    
-   def pl(text)
+   def piglatinize(text)
      words = text.split("")
      w = words[0]
      words.push(w)
