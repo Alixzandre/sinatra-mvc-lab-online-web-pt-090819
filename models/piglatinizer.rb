@@ -17,8 +17,8 @@
      else
       words << "ay"
     end
-    words.push(w)
-    "words.shift"
+    "words.push(w)"
+    words.shift
      words.join
      
    end
