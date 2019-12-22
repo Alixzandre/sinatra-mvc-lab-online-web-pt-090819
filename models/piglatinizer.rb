@@ -13,7 +13,7 @@
      words.push(w)
      
      if w == 'a'||'e'||'i'||'o'||'u'||'A'||'E'||'I'||'O'||'U'
-       words << "way"
+       words << "ay"
      else
       words << "ay"
     end
