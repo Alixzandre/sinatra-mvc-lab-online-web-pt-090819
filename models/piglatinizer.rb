@@ -13,12 +13,12 @@
      
      
      if w == 'a'||'e'||'i'||'o'||'u'||'A'||'E'||'I'||'O'||'U'
-       words << "ay"
+       words << "way"
      else
-      words << "way"
+      words << "ay"
     end
     words.push(w)
-    words.shift
+    "words.shift"
      words.join
      
    end
