@@ -1,6 +1,6 @@
    class PigLatinizer
    def piglatinize(word)
-     if.string.include?
+     if.string.include?(" ")
        
      else 
        
