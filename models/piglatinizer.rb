@@ -12,9 +12,9 @@
      w = words[0]
      words.push(w)
      if w == ('a'||'e'||'i'||'o'||'u'||'A'||'E'||'I'||'O'||'U')
-       words << "ay"
+       words << "way"
      else
-      words << "way"
+      words << "ay"
     end
       words.shift
       words.join
