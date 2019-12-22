@@ -1,18 +1,19 @@
    class PigLatinizer
-   def piglatinize(word)
+   "def piglatinize(word)
      if.string.include?(" ")
        
      else 
        
      end
-   end
+   end"
    
    def pl(text)
      words = text.split("")
      w = words[0]
      words.push(w)
      words.shift
-     words.
+     words << "ay"
+     words.join
      
    end
 end
