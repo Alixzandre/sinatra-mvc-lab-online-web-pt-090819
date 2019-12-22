@@ -6,4 +6,8 @@
        
      end
    end
+   
+   def pl(text)
+     text.split
+   end
 end
