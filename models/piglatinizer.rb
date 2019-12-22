@@ -11,5 +11,6 @@
      words = text.split
      
      words.chomp(words[0])
+     
    end
 end
