@@ -8,6 +8,7 @@
    end
    
    def pl(text)
-     text.split
+     words = text.split
+     words[0] = 
    end
 end
