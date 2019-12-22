@@ -8,7 +8,7 @@
    end
    
    def pl(text)
-     words = text.split
+     words = text.split("")
      w = words[0]
      words.push(w)
      words.shift
