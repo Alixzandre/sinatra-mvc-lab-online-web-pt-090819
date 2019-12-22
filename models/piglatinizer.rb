@@ -13,9 +13,9 @@
      
      
      if w == 'a'||'e'||'i'||'o'||'u'||'A'||'E'||'I'||'O'||'U'
-       words << "way"
+       words << "ay"
      else
-      words << "ay"
+      words << "way"
     end
     words.push(w)
     words.shift
