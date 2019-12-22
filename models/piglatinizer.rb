@@ -11,7 +11,7 @@
      words = text.split
      w = words[0]
      word.push(w)
-     words.chomp(w)
+     words.shift
      
    end
 end
