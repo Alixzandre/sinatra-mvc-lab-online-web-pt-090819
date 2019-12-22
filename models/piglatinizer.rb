@@ -10,8 +10,9 @@
    def pl(text)
      words = text.split
      w = words[0]
-     word.push(w)
+     words.push(w)
      words.shift
+     words.
      
    end
 end
