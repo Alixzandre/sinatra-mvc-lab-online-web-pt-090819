@@ -9,6 +9,6 @@
    
    def pl(text)
      words = text.split
-     words.chomp =
+     words.chomp(words[0])
    end
 end
