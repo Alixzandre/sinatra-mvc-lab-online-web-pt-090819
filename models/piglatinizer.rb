@@ -12,7 +12,7 @@
      w = words[0]
      words.push(w)
      words.shift
-     if w == a||e||i||o||uA||E||I||O||U
+     if w == 'a'||'e'||'i'||'o'||'u'||'A'||'E'||'I'||'O'||'U'
        words << "way"
      else
       words << "ay"
