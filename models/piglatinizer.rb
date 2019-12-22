@@ -12,6 +12,7 @@
      w = words[0]
      words.push(w)
      words.shift
+     if w == 
      words << "ay"
      words.join
      
